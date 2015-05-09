@@ -1,0 +1,194 @@
+/*
+************
+* =header
+************
+*/
+
+header img {
+	padding: 10px;
+}
+header {
+	overflow: hidden;
+}
+header h1 {
+	text-indent: -9999px;
+	margin: 10px 10px 20px;
+	float: left;
+}
+
+.logo {
+	margin-bottom: 20px;
+}
+
+/*
+************
+* =nav
+************
+*/
+nav {
+	float: right;
+	padding-top: 12px;
+}
+
+nav li {
+	display: inline;
+	padding: 12px;
+}
+nav a {
+	text-transform: lowercase;
+}
+
+/*
+************
+* =banner
+************
+*/
+.banner {
+	background: url(../images/city.jpg) no-repeat;
+	width: 695px;
+	height: 231px;
+	margin-left: -15px;
+	position: relative;
+}
+
+.banner h2 {
+	color: white;
+	font-size: 28px;
+	font-weight: normal;
+	position: absolute;
+	bottom: -10px;
+	left: 8px;
+	background: rgba(0,0,0, 0.5);
+	padding: 0 8px;
+	text-transform: lowercase;
+}
+
+.callout {
+background: url(../images/city2.jpg) no-repeat;
+width: 200px;
+height: 231px;
+
+}
+
+/*
+************
+* =footer
+************
+*/
+footer {
+	clear: both;
+	border-top: 1px solid #d1d1d1;
+	padding-top: 18px;
+	margin-top: 30px;
+}
+
+/*
+************
+* =work
+************
+*/
+
+.work h2,
+.work h4 {
+	font-weight: normal;
+	font-size: 26px;
+}
+
+.work h2 {
+	margin-bottom: 0;
+}
+
+.work h4 {
+	color: #787878;
+	padding-bottom: 33px;
+	margin-bottom: 30px;
+}
+
+.work img {
+	margin-bottom: 20px;
+	margin-top: -25px;
+}
+
+
+/*
+************
+* =miscellanous
+************
+*/
+.container_24 {
+	margin-top: 10px;
+}
+p {
+	font-size: 13px;
+	line-height: 20px;
+	color: #353535;
+}
+h1, h3 {
+	letter-spacing: -1px;
+}
+
+h4 {
+	font-size: 26px;
+	text-transform: lowercase;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 27px;
+	margin-bottom: 15px;
+	line-height: 1em;
+	font-weight: lighter;
+}
+blockquote {
+	position: relative;
+}
+
+blockquote, blockquote p {
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+	color: #0e0e0e;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover, .selected {
+	color: black;
+}
+
+.button {
+	background: #242324;
+	padding: 6px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 11px;
+}
+.button:hover {
+	color: rgb(220,220,220);
+}
+
+.grid_6 {
+float: right;
+}
+
+.mt {
+	float: right;
+	margin: 0;
+	font-size: 11px;
+}
+
+.design {
+	float: right;
+	font-style: italic;
+	clear: both;
+	margin: 0;
+	font-size: 11px;
+}
+
+.first:first-letter {
+	float: left;
+	font-size: 40pt;
+	margin: 8px;
+	font-family: 'Clicker Script', cursive;
+}
